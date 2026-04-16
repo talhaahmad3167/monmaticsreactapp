@@ -9,6 +9,7 @@ import TextLeft from "../home/TextLeft.jsx";
 import FeelyourData from "../home/FeelyourData.jsx";
 import WhatOurClients from "../home/WhatOurClients.jsx";
 import Tailored from "../home/Tailored.jsx";
+import Financial from "../home/Financial.jsx";
 
 export default function Home() {
   return (
@@ -36,6 +37,9 @@ export default function Home() {
             <WhatOurClients/>
             {/* Tailored */}
             <Tailored/>
+            {/* Financial */}
+            
+            <Financial/>
             
           </div>
         </div>

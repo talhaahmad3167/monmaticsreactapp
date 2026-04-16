@@ -386,3 +386,60 @@
   min-height: 100vh;
   background: linear-gradient(to bottom, #1E3A8A 60%, #F3F4F6 40%);
 }
+
+
+.custom-list {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 160px;
+  margin-top: 30px;
+  font-weight: 500;
+}
+
+.custom-list li {
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 18px;
+}
+
+/* Circle + tick */
+.custom-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  top: 2px;
+
+  width: 22px;
+  height: 22px;
+
+  border: 2px solid #2563eb;   /* blue border */
+  color: #2563eb;              /* blue tick */
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 14px;
+  font-weight: bold;
+  background: white;
+}
+
+
+.laptopimage {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;  /* align to left */
+
+  overflow: hidden;  /* 🔥 THIS hides extra part */
+}
+
+.laptopimage img {
+  width: 160%;        /* make image bigger */
+  height: auto;
+  object-fit: contain;
+
+  margin-top: 60px;
+  margin-left: 70px; /* shift image to show half */
+}
