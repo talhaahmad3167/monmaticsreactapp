@@ -1,0 +1,77 @@
+
+.custom-navbar {
+  background: #ffffff !important;
+  min-height: 80px;
+  padding: 10px 60px;
+  /* blur + shadow effect */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.10);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(10px);
+
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* nav links styling */
+.custom-navbar .nav-link {
+  color: #333 !important;
+  font-weight: 500;
+  /* margin-right: 15px; */
+}
+
+.custom-navbar .nav-link:hover {
+  color: #000 !important;
+}
+
+.signin-btn {
+  background-color: white;
+  border: 1px solid black;
+  color: blue;
+  padding: 6px 18px;
+  border-radius: 6px;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+
+/* Hover effect */
+.signin-btn:hover {
+  background-color: #1e3a8a;
+  color: white;
+  text-decoration: none;
+}
+.dropdown:hover{
+  border: 1px solid black;
+  border-radius: 6px;
+}
+.active-link {
+  border-bottom: 2px solid blue;
+  padding-bottom: 3px;
+}
+
+/* ///////////////////////// */
+.custom-pill {
+  position: absolute; 
+  top: 4px;
+  left: 4px;             /* left-1 ≈ 4px */
+  height: 18px;
+  width: 190px;
+  background-color: #0d6efd; /* Bootstrap primary (or use #00008b for blue-900) */
+  border-radius: 50px;   /* rounded-full */
+  transition: transform 0.3s ease;
+}
+
+.getstratedbtn {
+  background-color: #1e3a8a;
+  border-color: #1e3a8a;
+  transition: 0.3s ease;
+  color: white;
+  padding: 6px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.getstratedbtn:hover {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}

@@ -1,0 +1,18 @@
+ul {
+  list-style: none; /* removes bullets */
+}
+ul li {
+  color: #374151; /* similar to text-gray-900 */
+}
+.apps-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 12px;
+    color: #1d4ed8;
+    margin-left: 35px;
+    margin-bottom: 30px;
+  }
+  .card{
+    background-color: #F3F4F6;
+  }
+

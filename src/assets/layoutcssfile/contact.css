@@ -1,0 +1,195 @@
+.contact-header {
+  position: relative;
+  padding: 80px 20px;
+  background-color: #eef3fb;
+  overflow: hidden;
+  height: 400px;
+}
+
+/* GRID BACKGROUND */
+.grid-bg {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  gap: 8px; /* 👈 THIS is your Tailwind gap-2 */
+  opacity: 0.2;
+  z-index: 0;
+}
+
+/* EACH BOX */
+.grid-box {
+  background-color: #dfe7f5;
+  width: 100%;
+  height: 100%;
+}
+
+/* CONTENT ABOVE GRID */
+.content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 60px;
+  font-weight: bold;
+  color: #2d4a8a;
+}
+
+.contact-desc {
+  font-size: 30px;
+  color: #1f2a44;
+}
+
+/* /////////// */
+.cards {
+  background: #f9fafb;
+  border: 1px solid #dce6ff;
+  border-radius: 18px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  height: 300px;
+}
+
+/* Hover effect (subtle zoom like SaaS UI) */
+.cards:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Image section */
+.cards-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+
+  margin-left: 230px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center !important;
+  background: #f9fafb;
+
+  /* soft bottom shadow */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
+}
+
+
+
+
+
+/* Content section */
+.cards-body {
+  padding: 20px;
+}
+
+.cards-body h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #111827;
+}
+
+.cards-body p {
+  font-size: 14px;
+  color: #4b5563;
+  line-height: 1.6;
+}
+.loacationheading{
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+.image-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.main-image {
+  max-width: 350px;
+  height: auto;
+  display: block;
+}
+
+.overlay-image {
+  position: absolute;
+  top: 300px;   /* adjust position */
+  right: 100px; /* push outside or inside */
+  width: 200px;
+  height: 20px;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.icon-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+
+  background: rgba(37, 99, 235, 0.1); /* light blue circle */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+}
+.icon-circle svg {
+  width: 20px;
+  height: 20px;
+  color: #2563eb; /* blue icon */
+}
+.col-md-6 h4,
+.col-md-6 p {
+  text-align: left;
+  margin: 0;
+}
+.cotactform{
+  margin-top: 50px;
+  background-color: #DBEAFE;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.form-control {
+  background-color: #f3f4f6; /* light gray */
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+}
+
+.form-control:focus {
+  background-color: #ffffff;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+.register-btn {
+  background-color: #1e3a8a;
+  border-color: #1e3a8a;
+  transition: 0.3s ease;
+  color: white;
+  padding: 6px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.register-btn:hover {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+.discover-btn {
+  background-color: #1e3a8a;
+  border-color: #1e3a8a;
+  transition: 0.3s ease;
+  color: white;
+  padding: 6px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.discover-btn:hover {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
